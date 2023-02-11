@@ -14,15 +14,15 @@ public class Client {
 		
 		//creation
 		
-		student.setRollNo(1214);
-		student.setName("Ananya Pavar");
+		student.setRollNo(1215);
+		student.setName("Harshu");
 		service.create(student);
 		
 		System.out.println("The data is inserted");
 		
 		
 		
-		//Retrieve
+		/*//Retrieve
 		student=service.retrieve(1213);
 		System.out.println("ROLL NO: "+student.getRollNo()+" "+"Name: "+
 		student.getName());
@@ -36,7 +36,7 @@ public class Client {
 		//delete
 		student=service.retrieve(1214);
 		service.delete(student);
-		System.out.println("The data is deleted");
+		System.out.println("The data is deleted");*/
 
 
 
